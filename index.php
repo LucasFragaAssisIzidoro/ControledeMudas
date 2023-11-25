@@ -1,4 +1,4 @@
-<?php include '_con.php'?>
+<?php include 'bd/con.php'?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -14,9 +14,9 @@
         <div class="py-5">
             <h1 class="mb-4">Sistema de Gerenciamento do Viveiro de Mudas</h1>
             
-            <a href="PaginaLOTE-RECIPIENTE/intermediarias/Pagina-inter-Lote.php" class="btn btn-primary btn-lg mb-3">Registro Lote</a>
-            <a href="PaginaSaidasReservas/Pagina-inter-Desti.php" class="btn btn-primary btn-lg mb-3">Registro de Saídas e Reservas</a>
-            <a href="PaginaMudas-Substrato/Pagina-inter-Mudas.php" class="btn btn-primary btn-lg mb-3">Registro de Mudas e Substratos</a>
+            <a href="lote/index.php" class="btn btn-primary btn-lg mb-3">Registro Lote</a>
+            <a href="saidas_reservas/index.php" class="btn btn-primary btn-lg mb-3">Registro de Saídas e Reservas</a>
+            <a href="mudas_substratos/index.php" class="btn btn-primary btn-lg mb-3">Registro de Mudas e Substratos</a>
         </div>
     </div>
 
