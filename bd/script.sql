@@ -1,23 +1,25 @@
-create database mudas;
+create database viveiro;
 
-use mudas;
+use viveiro;
 
-create table lote(
-    id_lote int primary key auto_increment,
-    muda varchar(255),
-    substrato varchar(255),
-    dataPlantio date,
-    dataColheita date, 
-    quantidade int
+CREATE TABLE muda (
+    id_muda INT PRIMARY KEY AUTO_INCREMENT,
+    nomemuda VARCHAR(100) UNIQUE, -- Adicionado UNIQUE para garantir unicidade
+    tempProd INT
 );
 
-create table muda(
-    id_muda int primary key auto_increment,
-    nomemuda varchar(100),
-    tempProd int
+CREATE TABLE substrato (
+    id_subs INT PRIMARY KEY AUTO_INCREMENT, 
+    nomesubs VARCHAR(255) UNIQUE -- Adicionado UNIQUE para garantir unicidade
 );
 
-create table substrato(
-    id_subs int primary key auto_increment, 
-    nomesubs varchar(255)
+CREATE TABLE lote (
+    id_lote INT PRIMARY KEY AUTO_INCREMENT,
+    muda VARCHAR(255),
+    subs VARCHAR(255),
+    dataPlantio DATE,
+    dataColheita DATE, 
+    quantidade INT,
+    FOREIGN KEY (muda) REFERENCES muda (nomemuda), 
+    FOREIGN KEY (subs) REFERENCES substrato (nomesubs)
 );

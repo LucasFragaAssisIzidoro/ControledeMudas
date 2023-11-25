@@ -1,0 +1,36 @@
+
+  .flex-container {
+    margin-top: 80px; 
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .left-column,
+  .right-column {
+    width: 48%; 
+  }
+
+  .square {
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+  }
+
+  .editable-box {
+    margin-bottom: 10px;
+  }
+
+  .resultado-item {
+    margin-bottom: 10px;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .submit-button,
+  .clear-button {
+    width: 48%;
+  }
