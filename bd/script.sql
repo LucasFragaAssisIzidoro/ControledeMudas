@@ -16,3 +16,8 @@ create table muda(
     nomemuda varchar(100),
     tempProd int
 );
+
+create table substrato(
+    id_subs int primary key auto_increment, 
+    nomesubs varchar(255)
+);

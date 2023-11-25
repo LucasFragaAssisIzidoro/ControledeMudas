@@ -1,0 +1,30 @@
+.editable-boxes {
+    margin-bottom: 20px;
+}
+
+.editable-box {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.submit-button,
+.clear-button {
+    width: 48%;
+}
+
+.square {
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.resultado-item {
+    margin-bottom: 10px;
+}
