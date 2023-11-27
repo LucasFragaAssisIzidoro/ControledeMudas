@@ -19,7 +19,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.php">Lote</a>
+                    <a class="nav-link" href="index.php">Registrar Lote</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="filtrar.php">Filtrar Lote</a>
                 </li>
             </ul>
         </div>
