@@ -18,10 +18,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="muda/index.php">Mudas</a>
+                    <a class="nav-link" href="muda/index.php"> Registrar Mudas</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="substrato/index.php">Substratos</a>
+                    <a class="nav-link" href="substrato/index.php">Registrar Substratos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="muda/filtrar.php"> Filtrar Mudas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="substrato/filtrar.php">Filtrar Substratos</a>
                 </li>
             </ul>
         </div>

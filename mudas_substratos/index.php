@@ -10,6 +10,12 @@
             <div class="p-2">
                 <a href="substrato/index.php" class="btn btn-primary">Registro de Substrato</a>
             </div>
+            <div class="p-2">
+                <a href="muda/filtrar.php" class="btn btn-primary">Filtro de Muda</a>
+            </div>
+            <div class="p-2">
+                <a href="substrato/filtrar.php" class="btn btn-primary">Filtro de Substrato</a>
+            </div>
         </div>
     </div>
     
